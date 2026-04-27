@@ -1,3 +1,7 @@
+---
+layout: null
+---
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,6 +12,7 @@
       background: #fff0f5;
       text-align: center;
       padding-top: 100px;
+      margin: 0;
     }
 
     .card {
@@ -43,13 +48,11 @@
     }
   </style>
 </head>
+
 <body>
   <div class="card">
     <h1>Meal Idea Generator</h1>
-    <p>Click the button to get a meal idea</p>
-
     <button onclick="generateMeal()">Give me a meal</button>
-
     <p id="meal"></p>
   </div>
 
@@ -59,7 +62,7 @@
       "Chicken steak with mash & gravy",
       "Salmon, crispy potatoes & broccoli",
       "Beef tacos",
-      "Chicken & caramelised onion quesadillas ",
+      "Chicken & caramelised onion quesadillas",
       "Steak with frites & peppercorn sauce",
       "Salmon skin roll sushi",
       "Spaghetti bolognese",
